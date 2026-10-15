@@ -1,0 +1,12 @@
+2026-10-15 09:00:02 INFO 10.0.0.8 GET /health 200
+2026-10-15 09:01:10 INFO 10.0.0.12 GET / 200
+2026-10-15 09:02:04 WARN 198.51.100.24 POST /login 401 authentication failed user=admin
+2026-10-15 09:02:09 WARN 198.51.100.24 POST /login 401 authentication failed user=admin
+2026-10-15 09:02:12 WARN 198.51.100.24 POST /login 401 authentication failed user=admin
+2026-10-15 09:02:16 WARN 198.51.100.24 POST /login 401 authentication failed user=admin
+2026-10-15 09:03:01 INFO 10.0.0.8 GET /products 200
+2026-10-15 09:04:31 ERROR 203.0.113.77 GET /../../etc/passwd 400 path traversal pattern
+2026-10-15 09:04:35 ERROR 203.0.113.77 GET /wp-admin 404
+2026-10-15 09:04:38 ERROR 203.0.113.77 GET /.env 404
+2026-10-15 09:06:02 INFO 10.0.0.12 GET /checkout 200
+2026-10-15 09:08:11 WARN 192.0.2.55 command="powershell -enc ..." action=blocked
